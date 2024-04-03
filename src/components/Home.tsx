@@ -272,10 +272,10 @@ export default function Home({ }: props) {
               <Typography sx={{mt: 2, ml: 2}}>{"hello"}</Typography>
             </Slide> */}
            <Stack spacing={2} sx={{mt: 2,}}>
-            <Slide direction="left" in={prediction != null} mountOnEnter unmountOnExit>
+            <Slide direction="left" in={prediction != ""} mountOnEnter unmountOnExit>
               <Typography variant="h3" sx={{mt: 2, color: prediction ? map_class_colors.get(prediction) : ""}}>{(prediction ? map_class_names.get(prediction) : "")}</Typography>
             </Slide>
-            <Slide direction="left" in={prediction != null} mountOnEnter unmountOnExit>
+            <Slide direction="left" in={prediction != ""} mountOnEnter unmountOnExit>
               <Typography sx={{mt: 2,}}>{(prediction ? map_descriptions.get(prediction) : "")}</Typography>
             </Slide>
           </Stack>
