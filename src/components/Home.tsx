@@ -178,10 +178,14 @@ export default function Home({ }: props) {
       setPrediction("");
 
       const { data } = await axios.post(url, formData, {
-        onUploadProgress: (progressEvent) => {
-          if (progressEvent.total) {
-            const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
-            setUploadProgress(percentCompleted - 20);
+        onUploadProgress: async (progressEvent) => {
+          // if (progressEvent.total) {
+          //   const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
+          //   setUploadProgress(percentCompleted - 20);
+          // }
+          for (let i=0; i<100; i+=5) {
+            setUploadProgress(i)
+            await delay(400);
           }
         }
       })
