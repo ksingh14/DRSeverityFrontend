@@ -1,5 +1,5 @@
-# ASLTranslateWeb
-React app with TypeScript and Material UI for translating English to ASL videos
+# DR Severity Frontend
+React app with TypeScript and Material UI for predicting DR severity in retinal images
 
 ## Instructions (w/o Docker)
 1. Install `nodejs` and `NPM` on local system
