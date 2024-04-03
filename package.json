@@ -1,0 +1,44 @@
+{
+  "name": "infowebgithub",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "axios": "1.2.1",
+    "file-saver": "^2.0.5",
+    "react": "latest",
+    "react-archer": "^4.2.2",
+    "react-audio-voice-recorder": "^1.0.5",
+    "react-dom": "latest",
+    "react-player": "^2.11.2",
+    "react-scripts": "latest",
+    "react-transition-group": "^4.4.5",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [],
+  "description": ""
+}
